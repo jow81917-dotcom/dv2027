@@ -52,7 +52,7 @@ export default function Landing() {
         <div className="fee-card">
           <div className="eyebrow">SERVICE FEE</div>
           <div className="fee-amount">350 <span>Birr</span></div>
-          <p>One-time fee via Telebirr. Manually verified by our team.</p>
+          <p>One-time fee via Telebirr.</p>
           <p className="fee-am">አንድ ጊዜ የሚከፈል ክፍያ። በቴሌብር ይላኩ።</p>
         </div>
       </section>

@@ -51,8 +51,10 @@ export default function Payment() {
     <InnerShell>
       <div className="content-card">
         <div className="eyebrow blue-eyebrow">PAYMENT</div>
-        <h1>Payment submitted ✓</h1>
-        <p>Your payment proof has been received. We will verify it and update your status within 24 hours.</p>
+        <div className="payment-success-mark" role="img" aria-label="Success / ተሳክቷል"><span>✓</span></div>
+        <h1>Successfully submitted / በተሳካ ሁኔታ ተልኳል</h1>
+        <p>Your payment proof has been received. / የክፍያ ማረጋገጫዎ ደርሶናል።</p>
+        <p>We will verify it and update your status within 24 hours. / ማረጋገጫውን እናደርጋለን፤ ሁኔታዎንም በ24 ሰዓታት ውስጥ እናዘምናለን።</p>
         <p><strong>Reference:</strong> {ref}</p>
         <Link to="/status" className="button primary-button">Check my status</Link>
       </div>
